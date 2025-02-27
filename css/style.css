@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    list-style: none;
+}
+
+.cabecalho {
+    max-width: 1730px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 120px;
+    
+
+    & .nav {
+        display: flex;
+        gap: 51px;
+
+        & a {
+            text-decoration: none;
+            color: #6B7280;
+            font-size: 18px;
+            letter-spacing: 0.02em;
+
+            & {
+
+            }
+
+            & button {
+                background: #1F1F39;
+                padding: 8.07px;
+                border-radius: 8.07px;
+                color: #fff;
+                font-weight: 700;
+                font-size: 18px;
+                border: none;
+            }
+            }
+            }
+        }
